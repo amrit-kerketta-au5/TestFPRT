@@ -1,1 +1,8 @@
 How will you create persistent connections between the server and the client? 
+
+
+To create a persistent connection between the server and the client TCP/IP protocol has to be established.
+
+Each client and server will respond to each other using the help of IP address 
+TCP protocol is used to do so because in this protocol there is no data loss and the communcation happens continuoulsly
+

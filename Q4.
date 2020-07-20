@@ -1,1 +1,18 @@
 What is Multithreading? What is the difference between a thread and a process?
+
+Multithreading is the ability of a central processing unit (CPU) (or a single core in a multi-core processor) 
+to provide multiple threads of execution concurrently, supported by the operating system.
+
+
+Difference between Thread and Process
+
+A thread is a lightweight sub-process, the smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
+
+A Process is a single program that runs to do some functionality
+
+
+Multiple threads are there inside of a process 
+
+
+
+

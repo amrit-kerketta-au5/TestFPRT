@@ -1,1 +1,19 @@
 On entering a URL in a browser, explain the detailed procedure in which the request is handled by the browser and the result is obtained for the given search query. 
+
+
+After entering URl in the browser . 
+The first thing that happens is that the url is converted into IP address using the help DNS server
+
+After DNS server has resolves the website address into IP address 
+
+A request to the server is send 
+Every server has an API to do tasks
+
+This request from the client with particular search query is send to this API 
+
+The API processes the query using the functions written to do so .
+
+After processing the API returns the result 
+
+The result is then shown to the user in the browser.
+

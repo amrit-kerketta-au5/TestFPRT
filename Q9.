@@ -1,0 +1,15 @@
+How will you analyze 'process out of memory exception' in your node js application? 
+
+
+Taking Snapshots Of The V8 Memory
+
+Let's play with the Memory tab a bit. The simplest option available is Take heap snapshot.
+ It does what you expect: it creates a dump of the heap memory for the inspected application, with a lot of details about the memory usage.
+
+Memory snapshots are useful to track memory leaks. 
+A usual technique consists of comparing multiple snapshots at different key points to see if the memory size grows, when it does, and how.
+
+Watching Memory Allocation In Real Time
+
+Another method to measure the memory allocation is to see it live instead of taking multiple snapshots.
+ To do so, click on Record allocation timeline while the siege simulation is in progress.

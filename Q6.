@@ -1,10 +1,19 @@
 What is normalization and denormalization and why do we need it?
 
 Normalization and denormalization are the methods used in databases. 
-The terms are differentiable where Normalization is a technique of minimizing the insertion, deletion and update anomalies through eliminating the redundant data. On the other hand, Denormalization is the inverse process of normalization where the redundancy is added to the data to improve the performance of the specific application and data integrity.
+The terms are differentiable where Normalization is a technique of minimizing the 
+insertion, deletion and update anomalies through eliminating the redundant data.
+ On the other hand, Denormalization is the inverse process of normalization where the redundancy
+  is added to the data to improve the performance of the specific application and data integrity.
 
-Normalization is the method of arranging the data in the database efficiently. It involves constructing tables and setting up relationships between those tables according to some certain rules. The redundancy and inconsistent dependency can be removed using these rules in order to make it more flexible.
-Denormalization is the inverse process of normalization, where the normalized schema is converted into a schema which has redundant information. The performance is improved by using redundancy and keeping the redundant data consistent. The reason for performing denormalization is the overheads produced in query processor by an over-normalized structure.
+Normalization is the method of arranging the data in the database efficiently. 
+It involves constructing tables and setting up relationships between those tables according to some certain rules.
+ The redundancy and inconsistent dependency can be removed using these rules in order to make it more flexible.
+
+
+Denormalization is the inverse process of normalization, where the normalized schema is converted into a schema which has redundant information. 
+The performance is improved by using redundancy and keeping the redundant data consistent. 
+The reason for performing denormalization is the overheads produced in query processor by an over-normalized structure.
 
 
 

@@ -1,1 +1,13 @@
 What is Cache? Where does cache lie in an Operating System? Difference between Cache and HashMap.
+
+
+A cache -- pronounced CASH -- is hardware or software that is used to store something, usually data, temporarily in a computing environment.
+
+A small amount of faster, more expensive memory is used to improve the performance of recently accessed or frequently accessed data 
+that is stored temporarily in a rapidly accessible storage media that's local to the cache client and separate from bulk storage. 
+Cache is frequently used by cache clients, such as the CPU, applications, web browsers or operating systems (OSes).
+
+
+
+Cache memory lies on the path between the CPU and the main memory. 
+It facilitates the transfer of data between the processor and the main memory at the speed which matches to the speed of the processor.

@@ -1,1 +1,13 @@
 Difference between INNER and OUTER JOIN.
+
+Inner and outer joins are combine rows from two or more tables into a single result using a join condition. 
+ The join condition specifies how columns from each table are matched to one another.
+   In most cases, the aim is to find equal values between tables, and include those matches.
+
+The most common case for this is when you’re matching the foreign key of one table to the primary key of another, 
+such as when using and ID to look up a value.
+
+Though both inner and outer joins include rows from both tables when the match condition is successful, 
+they differ in how they handle a false match condition.
+
+Inner joins don’t include non-matching rows; whereas, outer joins do include them.
